@@ -1,0 +1,209 @@
+
+main .Sidebar{
+    background-color: #17202E;
+    width:328px;
+    padding: 20px 16px;
+}
+
+.Sidebar .btn-sidebar{
+    background: rgba(55, 65, 81, 0.5);
+    border-radius: 10px;
+    
+}
+.Sidebar .box{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 17px 25px;
+}
+.Sidebar .box:first-child{
+    background: #2D8CFF;
+    border-radius: 8px;
+    padding: 17px 25px;
+}
+.Sidebar .upTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding: 12px 20px;
+    background-color: #374151;
+    border-radius: 10px;
+}
+.Sidebar .upTop .box span{
+    color: #fff;
+    font-size: 12px;
+}
+.Sidebar .upTop .box span.txt{
+    color: #9CA3AF;
+}
+
+
+
+/* User part */
+
+
+
+.user{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.8rem;
+}
+.user .left{
+    gap: 1rem;
+}
+.user .left .spans{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    /* align-items: center; */
+}
+.user .left .spans span{
+    color: #6B7280;
+}
+.user .left .spans span:first-child{
+    color: #D1D5DB;
+}
+
+.user .images{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+}
+
+.user .images span{
+    color: #2D8CFF;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(45, 140, 255, 0.1);
+    border: 1px solid rgba(45, 140, 255, 0.1);
+    border-radius: 100px;
+    width: 38px;
+    height: 21px;
+    padding: 4px 8px;
+}
+
+.userOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.userOptions button{
+    background: rgba(55, 65, 81, 0.5);
+    border-radius: 6px;
+    border: none;
+    padding: 4px 10px;
+    color: #D1D5DB;
+    font-size: 12px;
+    margin-bottom:.8rem;
+}
+
+.ChatAll{
+   
+}
+.Chats{
+    /* background-color: #2D8CFF; */
+}
+
+.chatStart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(31, 41, 55, 0.5);
+    padding: 8.5px 8px;
+    color: #fff;
+}
+
+.chatStart span{
+    font-size: 14px;
+}
+
+.Chats{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.Chats .box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Chats .box1 .info{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.Chats .box1 .info span{
+    color: #6B7280;
+    font-size: 14px;
+}
+
+.Chats .box1 .info span a{
+    color: #2D8CFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.Chats .box1  .time{
+    color: #6B7280;
+    font-size: 12px;
+    line-height: 15px;
+}
+.Chats span.chat-text{
+    background: rgba(55, 65, 81, 0.5);
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 12px;
+    width: 260px;
+    height: 33px;
+    font-size: 14px;
+}
+
+/* WritaMessage */
+
+
+.WritaMessage{
+    background: #17202E;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+}
+.WritaMessage .box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.WritaMessage .box1 span{
+    display: flex;
+    align-items: center;
+    background: #374151;
+    border: 1px solid rgba(55, 65, 81, 0.5);
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.WritaMessage .box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.WritaMessage .box2 input{
+    border: none;
+    outline: none;
+    background-color: #17202E;
+}
+.WritaMessage .box2 input::placeholder{
+    font-size: 12px;
+}
